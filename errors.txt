@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 52: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Ask for Testimonies"
+                         ^
+
+Ren'Py Version: Ren'Py 7.4.0.1167
+Fri Jan 15 08:53:05 2021
