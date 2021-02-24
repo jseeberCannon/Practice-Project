@@ -41,4 +41,21 @@ label start:
     p "My name is [povname]"
 ```
 
-The last major thing was menus
+The last major thing was menus, To create a menu you had to have menu command followed by your choices. Once you have your choices you need to have a jump command so that it jumps to a specific label of dialogue. For organization you can even put the labels in different rpy files if those choices lead to a lot of different dialogue.
+```menu:
+        "Inside the Tent":
+            jump tent
+
+        "Ask for Testimonies":
+            jump test
+
+    label tent:
+        p "Let's go to the crime scene first"
+
+        jump inside
+
+    label test:
+        p "Let's go ask some of the people who were here last night."
+
+        jump outside
+```
